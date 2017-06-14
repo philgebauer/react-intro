@@ -1,9 +1,12 @@
+//Imports
+
 import React from 'react'
 import { shallow } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
 import Search from './Search'
 import ShowCard from './ShowCard'
 import preload from '../public/data.json'
+
 
 test('Search snapshot test', () => {
   const component = shallow(<Search />)
